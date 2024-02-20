@@ -1,0 +1,41 @@
+## Passo a Passo para uma segunda Contribuicao: (criando uma segunda branch)
+
+### Sugestão: 
+Usando técnicas de processamento de linguagem natural (NLP), você pode criar um sistema que analise o texto dos READMEs e sugira tags relevantes
+com base no conteúdo do projeto. Isso pode ajudar os desenvolvedores a categorizar e organizar seus projetos de forma mais eficiente, facilitando
+a descoberta por outros usuários na plataforma GitHub.
+
+1. **Criação de uma Nova Branch:** 🌱
+   - Crie uma nova branch para trabalhar na sua implementação utilizando um nome descritivo, por exemplo:
+     ```
+     git checkout -b sugestao-NLP-tags
+     ```
+
+2. **Desenvolvimento da Funcionalidade:** 👩‍💻
+   - Desenvolva a funcionalidade que utiliza técnicas de processamento de linguagem natural (NLP) para analisar o texto dos READMEs e sugerir tags relevantes.
+
+3. **Testes e Validação:** ✔️
+   - Teste a funcionalidade localmente para garantir que ela esteja funcionando conforme esperado.
+
+4. **Commit das Alterações:** 💬
+   - Adicione e confirme suas alterações ao repositório local usando os comandos:
+     ```
+     git add .
+     git commit -m "Adiciona funcionalidade de sugestão de tags usando NLP"
+     ```
+
+5. **Push da Branch:** 🚀
+   - Envie sua branch com as alterações para o seu repositório no GitHub:
+     ```
+     git push origin sugestao-NLP-tags
+     ```
+
+6. **Pull Request:** 🛠️
+   - No GitHub, vá até a página do seu fork do repositório e clique no botão "New pull request". Isso criará um novo Pull Request (PR) com as alterações propostas.
+
+7. **Descrição do PR:** 📝
+   - Descreva detalhadamente as alterações propostas no seu PR, explicando a implementação da funcionalidade de sugestão de tags usando NLP e os benefícios que ela traz para o projeto.
+
+8. **Revisão e Integração:** 🔄
+    - Os mantenedores do projeto revisarão suas alterações por meio do PR. Se estiver tudo certo, suas alterações serão integradas ao repositório principal.
+```
